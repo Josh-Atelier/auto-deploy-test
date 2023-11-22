@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ateliertheme/public_html/wp-content/repositories/auto-deploy-test
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp deploy-test.txt $DEPLOYPATH
